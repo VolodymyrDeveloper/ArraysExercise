@@ -1,16 +1,17 @@
 package ArraysExercise;
 
-import java.util.Arrays;
-
 public class Exercise4 {
     public static void main(String[] args) {
-        /**Create next array of Integers with values: 2,3,1,7,11.
-         *  Sort them by DESC(reverseOrder).*/
-        Integer array[] = new Integer[]{2, 3, 1, 7, 11};
-        Arrays.sort(array);
-        for (int i = array.length-1; i >= 0; i--) {
-            System.out.println(array[i]--);
+        /*You get an array of numbers, return the average of a list of numbers in this array.
+         *  (Example -  array{1,2,4,1} -> avg = 2)*/
+
+        int averageNumberArray;
+        int sumArray = 0;
+        int array[] = new int[]{5, 10, 15, 20, 25, 100};
+        for (int i = 0; i < array.length; i++) {
+            sumArray = sumArray + array[i];
         }
+        averageNumberArray = sumArray / array.length;
+        System.out.println(averageNumberArray);
     }
 }
-

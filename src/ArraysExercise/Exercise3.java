@@ -1,11 +1,9 @@
 package ArraysExercise;
 
-public class Exercise1 {
+public class Exercise3 {
     public static void main(String[] args) {
-        /** Why arrays in java initialize with fixed size and can’t be dynamic?
-         *  Because computer doesn't know how much memory to allocate array.*/
 
-        /**You get an array of numbers(should contain both positive and negative numbers),
+        /*You get an array of numbers(should contain both positive and negative numbers),
          and return the sum of all the positive ones.
          (If there are nothing to sum, sum should be 0)*/
 
