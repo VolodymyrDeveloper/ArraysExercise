@@ -16,7 +16,7 @@ public class Exercise5 {
             }
         }
         for (int i = 0; i < arrayFromTask.length; i++)
-            System.out.print(arrayFromTask[i]);
+            System.out.print(arrayFromTask[i] + ",");
     }
 }
 
