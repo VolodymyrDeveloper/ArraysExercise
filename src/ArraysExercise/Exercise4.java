@@ -11,7 +11,7 @@ public class Exercise4 {
         for (int i = 0; i < array.length; i++) {
             sumArray = sumArray + array[i];
         }
-        averageNumberArray = sumArray / array.length;
+        averageNumberArray = (double) sumArray / array.length;
         System.out.println(averageNumberArray);
     }
 }
